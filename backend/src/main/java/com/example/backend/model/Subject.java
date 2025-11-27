@@ -26,15 +26,16 @@ public class Subject {
     @Enumerated(EnumType.STRING)
     private SubjectStatus status; // Passed, Failed or Matriculated
 
-    enum SubjectType {
-        BASIC,
-        MANDATORY,
-        OPTIONAL
-    }
+}
 
-    enum SubjectStatus {
-        PASSED,
-        FAILED,
-        MATRICULATED
-    }
+public enum SubjectType {
+    BASIC,
+    MANDATORY,
+    OPTIONAL
+}
+
+public enum SubjectStatus {
+    PASSED,
+    FAILED,
+    MATRICULATED
 }
