@@ -7,9 +7,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
-import com.example.backend.model.SubjectType;
-import com.example.backend.model.SubjectStatus;
-
 
 @Entity
 @Data
