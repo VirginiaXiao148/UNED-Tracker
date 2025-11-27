@@ -28,13 +28,13 @@ public class Subject {
 
 }
 
-public enum SubjectType {
+enum SubjectType {
     BASIC,
     MANDATORY,
     OPTIONAL
 }
 
-public enum SubjectStatus {
+enum SubjectStatus {
     PASSED,
     FAILED,
     MATRICULATED
