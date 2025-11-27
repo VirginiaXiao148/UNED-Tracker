@@ -7,6 +7,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.AllArgsConstructor;
 
+import com.example.backend.model.SubjectType;
+import com.example.backend.model.SubjectStatus;
+
 
 @Entity
 @Data
@@ -26,16 +29,4 @@ public class Subject {
     @Enumerated(EnumType.STRING)
     private SubjectStatus status; // Passed, Failed or Matriculated
 
-}
-
-enum SubjectType {
-    BASIC,
-    MANDATORY,
-    OPTIONAL
-}
-
-enum SubjectStatus {
-    PASSED,
-    FAILED,
-    MATRICULATED
 }
