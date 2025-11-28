@@ -21,6 +21,7 @@ public class Subject {
     private int credits;
     @Enumerated(EnumType.STRING)
     private SubjectType type; // Basic, Mandatory or Optional
+    @Column(name = "academic_year")
     private int year; // 1, 2, 3 or 4
     private BigDecimal note;
     @Enumerated(EnumType.STRING)
