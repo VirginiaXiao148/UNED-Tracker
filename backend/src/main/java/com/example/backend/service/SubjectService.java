@@ -79,7 +79,7 @@ public class SubjectService {
 
         Map<String, Object> stats = new HashMap<>();
         stats.put("averageNote", averageNote);
-        stats.put("CreditsObtained", creditsObtained);
+        stats.put("creditsObtained", creditsObtained);
         stats.put("progressPercentage", Math.round(progressPercentage * 100.0) / 100.0);
         stats.put("totalSubjects", totalSubjects);
 
